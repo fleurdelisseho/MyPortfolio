@@ -43,4 +43,31 @@
   scroll-behavior: smooth;
 }
 
+.portfolio {
+.portfolio-overlay {
+  text-align: center;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+@include transition(all 0.3s ease-in-out);
+}
+&:hover .portfolio-overlay {
+  opacity: 1;
+}
 
+.portfolio-overlay-details {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.portfolio-details {
+padding: 1.5rem 0;
+text-align: center;
+}
+}
