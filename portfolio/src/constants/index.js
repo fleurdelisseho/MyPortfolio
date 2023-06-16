@@ -257,40 +257,35 @@ export const socialLinks = [
   }
 ];
 
-// export const skills = [
-// {
-//   title: "My Skills",
-//   skills: [
-//     {
-//       id: "web",
-//       name: "Web Design",
-//       value: 90,
-//     },
-//     {
-//       id: "html",
-//       name: "HTML/CSS",
-//       value: 95,
-//     },
-//     {
-//       id: "js",
-//       name: "Javascript",
-//       value: 75,
-//     },
-//     {
-//       id: "react",
-//       name: "React Js",
-//       value: 70,
-//     },
-//     {
-//       id: "tailwind",
-//       name: "Tailwind CSS",
-//       value: 90,
-//     },
-//     {
-//       id: "react",
-//       name: "Bootstrap",
-//       value: 90,
-//     },
-//   ],
-// }
-// ];
+export const skillset = [
+    {
+      id: "web",
+      name: "Web Design",
+      value: 85,
+    },
+    {
+      id: "html",
+      name: "HTML/CSS",
+      value: 95,
+    },
+    {
+      id: "js",
+      name: "Javascript",
+      value: 75,
+    },
+    {
+      id: "react",
+      name: "React Js",
+      value: 70,
+    },
+    {
+      id: "tailwind",
+      name: "Tailwind CSS",
+      value: 80,
+    },
+    {
+      id: "react",
+      name: "Bootstrap",
+      value: 90,
+    },
+  ]

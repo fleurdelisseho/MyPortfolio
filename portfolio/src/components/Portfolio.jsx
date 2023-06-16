@@ -1,5 +1,6 @@
 import React from 'react'
 import {portfolio } from '../constants'
+import '../index.css'
 
 export default function Portfolio() {
     return (
@@ -22,11 +23,16 @@ export default function Portfolio() {
           <div class="grid grid-cols-3 gap-10 p-10">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
-                <div className=' flex '>
+                <div className=' flex overflow-hidden rounded-lg'>
+                  
+                <a href={skill.link} target="_blank">
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
-                    <img src={skill.icon}  className='object-cover rounded-lg'/>
+                    
+                    <img src={skill.icon}  className='object-cover hover:scale-110 transition duration-300 ease-in-out '/>
                   </div>
+                </a>
                 </div>
+            
               </li>
             ))}
           </div>

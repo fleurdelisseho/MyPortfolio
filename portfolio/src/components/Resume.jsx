@@ -1,5 +1,6 @@
 import React from 'react'
-import { education, experience } from '../constants'
+import MyResume from '../assets/RabanesResume.pdf'
+import { education, experience, skillset} from '../constants'
 
 export default function Resume() {
 
@@ -17,7 +18,7 @@ export default function Resume() {
           <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
           </div>
       </div>
-      <div className='flex w-full p-10 justify-center'>
+      <div className='flex w-full px-10 pt-10 justify-center'>
       <div className='w-[45%]'>
       <h2 className='font-poppins font-semibold text-[22px] text-[#212529]'>
         My Education
@@ -74,6 +75,44 @@ export default function Resume() {
         </ul>
       </div>    
       </div>
+      <div className='w-full px-20'>
+      <h2 className='ml-5 font-poppins font-semibold text-[22px] text-[#212529]'>
+        My Skills
+      </h2>
+      <div>
+          <ul className="list-none flex inline">
+            <div class="grid grid-cols-2 w-full">
+            {skillset.map((skill, index) => (
+                <li key={skill.id} 
+                  className={`font-poppins font-normal text-[#212529] `}
+                >
+                  <div className='p-5'>
+                  <div className="flex text-[18px] justify-between mb-2 ">
+                      <h3 className='font-medium'>
+                        {skill.name}
+                      </h3>
+                      <p className=' '>
+                        {skill.value}%
+                      </p> 
+                    </div> 
+                    <div className="h-3 w-full bg-gray-300 rounded-lg">
+                      <div  style={{ width:`${skill.value}%`}}
+                        className="h-full rounded-lg bg-[#20c997]">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+          ))}
+     
+    </div>
+    </ul>
+        </div>
+      </div>
+      <a href={MyResume} download="Resume.pdf" target="_blank">
+          <button className='block text-[#6c757d] border-[#6c757d] font-poppins border py-3 px-12 rounded-full drop-shadow-xl m-auto my-16 hover:bg-[#6c757d] hover:text-white  '>
+            Download CV
+          </button>
+          </a>
       </div>
       </div>
   )
