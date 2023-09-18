@@ -150,14 +150,14 @@ export const navLinks = [
 export const experience = [
   {
     id: "internship",
-    year: "Feb 2022 - June 2023",
+    year: "Feb - June 2023",
     company: "Southern Taiwan University of Technology",
     title: "Frontend Developer and UI/UX Designer",
     description: "Participated in the Biomedical Innovation Design Training and Research Program at STUST under Taiwan Experience Education Program (TEEP) 2023."
   },
   {
     id: "fulltime",
-    year: "May - Apr 2022",
+    year: "May 2021 - Apr 2022",
     company: "KLB Solutions LLC",
     title: "Frontend Developer",
     description: "Successfully designed, implemented, and maintained multiple e-commerce, small business, and non-profit websites, prioritizing a seamless and engaging user experience while staying abreast of the latest web development trends and technologies."
