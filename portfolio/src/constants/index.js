@@ -215,7 +215,7 @@ export const footerLinks = [
       {
         id: "phone",
         icon: phone,
-        name: "+63 975 326 0839",
+        name: "+63 936 356 4143",
       },
       {
         id: "email",
