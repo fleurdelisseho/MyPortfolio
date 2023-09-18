@@ -157,7 +157,7 @@ export const experience = [
   },
   {
     id: "fulltime",
-    year: "May 2021 - Apr 2022",
+    year: "May 21' - Apr 22'",
     company: "KLB Solutions LLC",
     title: "Frontend Developer",
     description: "Successfully designed, implemented, and maintained multiple e-commerce, small business, and non-profit websites, prioritizing a seamless and engaging user experience while staying abreast of the latest web development trends and technologies."
