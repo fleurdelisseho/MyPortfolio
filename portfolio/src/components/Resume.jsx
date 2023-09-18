@@ -28,7 +28,7 @@ export default function Resume() {
         {education.map((edu, index) => (
           <li key={edu.id}>
             <div className='border border-[#dee2e6] rounded-lg p-5 my-8 mr-8'>
-            <div className='bg-[#20c997] text-[12px] text-white font-poppins py-1 px-2 rounded-lg text-center'>
+            <div className='bg-[#20c997] text-[12px] text-white font-poppins py-1 px-2 rounded-lg w-[85px] text-center'>
             {edu.year}
             </div>
             <div className='font-poppins text-[20px] py-3'>
