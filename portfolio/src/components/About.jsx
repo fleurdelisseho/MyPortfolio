@@ -29,8 +29,8 @@ export default function About() {
         <br/><br/>
         I am fascinated by the art of creating visually appealing and intuitive user interfaces that enhance the overall user experience. I enjoy leveraging my creativity and technical skills to transform ideas into beautiful and functional websites and web applications.
         <br/><br/>
-        As a recent graduate, I am eager to apply my knowledge and skills to real-world projects, collaborating with experienced professionals to further enhance my expertise. I am a quick learner, always seeking to stay updated with the latest industry trends and best practices to deliver innovative solutions.
-        <br/><br/>
+        {/* As a recent graduate, I am eager to apply my knowledge and skills to real-world projects, collaborating with experienced professionals to further enhance my expertise. I am a quick learner, always seeking to stay updated with the latest industry trends and best practices to deliver innovative solutions.
+        <br/><br/> */}
         I am excited about the endless possibilities in the world of software development, and I am open to new opportunities that will help me grow both personally and professionally. If you're looking for a dedicated and enthusiastic front-end developer to join your team or collaborate on a project, I would be delighted to connect with you.
         </p>
         </div>
