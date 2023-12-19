@@ -16,6 +16,8 @@ import p3 from "./eatgangster.webp"
 import p4 from "./busify.webp" 
 import p5 from "./inquirenear.webp" 
 import p6 from "./tacpic.webp" 
+import p7 from "./orocan.svg"
+import p8 from "./ark.svg"
 import mail from "./mail.png"
 import pin from "./pin.png"
 import phone from "./phone.png"
@@ -48,6 +50,8 @@ export {
     p4,
     p5,
     p6,
+    p7,
+    p8,
     pin, 
     phone,
     mail,

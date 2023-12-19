@@ -15,6 +15,8 @@ import {
   p4,
   p5,
   p6,
+  p7,
+  p8,
   mail,
   pin,
   phone,
@@ -164,6 +166,18 @@ export const experience = [
   },
 ];
 export const portfolio = [
+  {
+    id:"ark",
+    title: "Ark Digital Website Redesign 2023",
+    icon: p8,
+    link: "#",
+  },
+  {
+    id:"orocan",
+    title: "Orocan Website Redesign",
+    icon: p7,
+    link: "#",
+  },
   {
     id:"tacpic",
     title: "TacPic Editor Landing Page",
