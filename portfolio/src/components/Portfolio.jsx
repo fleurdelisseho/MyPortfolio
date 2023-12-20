@@ -59,7 +59,7 @@ export default function Portfolio() {
                     <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        View Website
+                        Go to Website
                       </button>
 	                  </div>
                   </div>
