@@ -218,7 +218,7 @@ export const ui = [
     id:"orocan",
     title: "Orocan Website Redesign",
     icon: p7,
-    link:"",
+    link:"https://www.figma.com/proto/FWuWSlmo1Chk46Yrx42Va9/Orocan?type=design&node-id=15-4&t=zZJdiAlpVFoXvY2r-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A4&mode=design",
    },
   {
     id:"inquirenear",
