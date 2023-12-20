@@ -212,22 +212,25 @@ export const ui = [
     id:"ark",
     title: "Ark Digital Website Redesign 2023",
     icon: p8,
+    link: "https://www.figma.com/proto/iI2I7F3pS6UuQ043e7kERf/Ark?type=design&node-id=30-3&t=EhYxcACT78jbE7Oq-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A3&mode=design"
   },
   {
     id:"orocan",
     title: "Orocan Website Redesign",
     icon: p7,
+    link:"",
    },
   {
     id:"inquirenear",
     title: "InquireNear a Hiring Software Application for Realtime Information Mobile and Web App",
     icon: p5,
-   
+    link: "https://www.figma.com/proto/UXQ7J3qXWCujH7R1Ttpcg0/Inquirenear?type=design&node-id=1-2&t=nqo8xrkf7QsOVrKJ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
   },
   {
     id:"busify",
     title: "Busify a Bus Monitoring System Mobile App",
     icon: p4,
+    link: "https://www.figma.com/proto/uLm8JJeW9KUgKo7U31JQLs/Busify?type=design&node-id=2-150&t=QFpw7KXLFP6VfxhP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A150&mode=design",
   },
 ]
 

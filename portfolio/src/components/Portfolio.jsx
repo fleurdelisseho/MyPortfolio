@@ -23,53 +23,48 @@ export default function Portfolio() {
       <h2 className='p-10 pb-0 font-poppins font-semibold text-[22px] text-[#212529]'>
         UI/UX Design Projects
       </h2>
-        <ul className="list-none flex inline">
+        <ul>
           <div class="grid grid-cols-2 gap-10 p-10">
             {ui.map((proj, index) => (
               <li key={proj.id} >
-            
                 <div className='container flex overflow-hidden rounded-lg '>  
-              
+                <a href={proj.link} target="blank">
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
                     <img src={proj.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
-                      <btn className='text'>
+                      <button className='text'>
                         View Design
-                      </btn>
+                      </button>
 	                  </div>
-                  </div>
-               
+                  </div> 
+                  </a>       
                 </div>
-            
               </li>
             ))}
           </div>
         </ul>
       </div>
 
-
       <div className='p-10 pt-0'>
       <h2 className='pl-10 pt-10 font-poppins font-semibold text-[22px] text-[#212529]'>
         Web Design and Development Projects
       </h2>
-        <ul className="list-none flex inline">
+        <ul>
           <div class="grid grid-cols-2 gap-10 p-10">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
-            
                 <div className='container flex overflow-hidden rounded-lg '>  
-                <a href={skill.link} target="_blank">
+                <a href={skill.link} target="blank">
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
                     <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
-                      <btn className='text'>
+                      <button className='text'>
                         View Website
-                      </btn>
+                      </button>
 	                  </div>
                   </div>
                 </a>
                 </div>
-            
               </li>
             ))}
           </div>
