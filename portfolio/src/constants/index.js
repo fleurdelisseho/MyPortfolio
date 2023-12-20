@@ -179,37 +179,13 @@ export const experience = [
     description: "Successfully designed, implemented, and maintained multiple e-commerce, small business, and non-profit websites, prioritizing a seamless and engaging user experience while staying abreast of the latest web development trends and technologies."
   },
 ];
+
 export const portfolio = [
-  {
-    id:"ark",
-    title: "Ark Digital Website Redesign 2023",
-    icon: p8,
-    link: "#",
-  },
-  {
-    id:"orocan",
-    title: "Orocan Website Redesign",
-    icon: p7,
-    link: "#",
-  },
   {
     id:"tacpic",
     title: "TacPic Editor Landing Page",
     icon: p6,
     link: "https://www.tac-tales.com/",
-  },
-  {
-    id:"inquirenear",
-    title: "InquireNear a Hiring Software Application for Realtime Information Mobile and Web App",
-    icon: p5,
-    link: "https://inquire-near-2022.web.app/",
-    description:"",
-  },
-  {
-    id:"busify",
-    title: "Busify a Bus Monitoring System Mobile App",
-    icon: p4,
-    link: "",
   },
   {
     id:"eatgangster",
@@ -228,6 +204,30 @@ export const portfolio = [
     title: "Digital Marketing Agency Landing Page",
     icon: p1,
     link: "https://klbsolutionsllc.com/",
+  },
+]
+
+export const ui = [
+  {
+    id:"ark",
+    title: "Ark Digital Website Redesign 2023",
+    icon: p8,
+  },
+  {
+    id:"orocan",
+    title: "Orocan Website Redesign",
+    icon: p7,
+   },
+  {
+    id:"inquirenear",
+    title: "InquireNear a Hiring Software Application for Realtime Information Mobile and Web App",
+    icon: p5,
+   
+  },
+  {
+    id:"busify",
+    title: "Busify a Bus Monitoring System Mobile App",
+    icon: p4,
   },
 ]
 
@@ -253,6 +253,7 @@ export const footerLinks = [
     ],
   }
 ];
+
 export const socialLinks = [
   {
     title: "FOLLOW ME",
@@ -284,6 +285,8 @@ export const socialLinks = [
     ],
   }
 ];
+
+
 
 export const skillset = [
     {

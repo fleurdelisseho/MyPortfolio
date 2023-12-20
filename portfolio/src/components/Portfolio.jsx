@@ -1,5 +1,5 @@
 import React from 'react'
-import {portfolio } from '../constants'
+import {portfolio, ui } from '../constants'
 import '../index.css'
 
 export default function Portfolio() {
@@ -17,10 +17,43 @@ export default function Portfolio() {
           <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
           </div>
         </div>
-
-      <div className='p-10'>
+     
+       
+      <div className='p-10 pb-0'>
+      <h2 className='p-10 pb-0 font-poppins font-semibold text-[22px] text-[#212529]'>
+        UI/UX Design Projects
+      </h2>
         <ul className="list-none flex inline">
-          <div class="grid grid-cols-3 gap-10 p-10">
+          <div class="grid grid-cols-2 gap-10 p-10">
+            {ui.map((proj, index) => (
+              <li key={proj.id} >
+            
+                <div className='container flex overflow-hidden rounded-lg '>  
+              
+                  <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
+                    <img src={proj.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
+                    <div className='middle'>
+                      <btn className='text'>
+                        View Design
+                      </btn>
+	                  </div>
+                  </div>
+               
+                </div>
+            
+              </li>
+            ))}
+          </div>
+        </ul>
+      </div>
+
+
+      <div className='p-10 pt-0'>
+      <h2 className='pl-10 pt-10 font-poppins font-semibold text-[22px] text-[#212529]'>
+        Web Design and Development Projects
+      </h2>
+        <ul className="list-none flex inline">
+          <div class="grid grid-cols-2 gap-10 p-10">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
             
@@ -28,11 +61,9 @@ export default function Portfolio() {
                 <a href={skill.link} target="_blank">
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
                     <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
-
                     <div className='middle'>
-                    {/* <p className="mb-7">{skill.title}</p> */}
                       <btn className='text'>
-                        View Project
+                        View Website
                       </btn>
 	                  </div>
                   </div>
@@ -44,6 +75,7 @@ export default function Portfolio() {
           </div>
         </ul>
       </div>
+
     </div>
     </div>
   )

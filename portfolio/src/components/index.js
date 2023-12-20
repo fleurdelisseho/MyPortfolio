@@ -7,6 +7,7 @@ import Contact from "./Contact"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
+
 export {
     Home,
     About,
@@ -15,5 +16,6 @@ export {
     Portfolio,
     Contact,
     Navbar, 
-    Footer
+    Footer,
+  
 }
