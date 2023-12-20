@@ -148,11 +148,25 @@ export const navLinks = [
     major: "Academic Strand - Science, Technology, Engineering and Mathematics",
     honors: "Honors: Graduated with Honors (2019); Completed Junior High School with Honors (2017) and Best in Computer Awards (2016)"
   },
+  {
+    id: "elem",
+    year: "2007-2013",
+    school: "Punta Princesa Elementary School",
+    degree: "Elementary School",
+    honors: "Honors and Awards: Graduated with Honors (2013) and Best in Computer Awards (2012 and 2013)"
+  },
 ];
 export const experience = [
   {
+    id: "freelance",
+    year: "Jun - Dec 2023",
+    company: "",
+    title: "Freelance UI/UX Designer and Video Editor",
+    description: "Experienced in UI/UX design using Figma and video editing with Premiere Pro, I excel in bringing client visions to life with impactful designs and compelling multimedia content for freelance projects."
+  },
+  {
     id: "internship",
-    year: "Feb - June 2023",
+    year: "Feb - Jun 2023",
     company: "Southern Taiwan University of Technology",
     title: "Frontend Developer and UI/UX Designer",
     description: "Participated in the Biomedical Innovation Design Training and Research Program at STUST under Taiwan Experience Education Program (TEEP) 2023."
