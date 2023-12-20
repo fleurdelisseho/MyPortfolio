@@ -289,7 +289,7 @@ export const skillset = [
     {
       id: "web",
       name: "Web Design",
-      value: 90,
+      value: 99,
     },
     {
       id: "html",
@@ -299,21 +299,21 @@ export const skillset = [
     {
       id: "js",
       name: "Javascript",
-      value: 80,
+      value: 90,
     },
     {
       id: "react",
       name: "React Js",
-      value: 85,
+      value: 95,
     },
     {
       id: "tailwind",
       name: "Tailwind CSS",
-      value: 90,
+      value: 95,
     },
     {
       id: "react",
       name: "Bootstrap",
-      value: 90,
+      value: 100,
     },
   ]
