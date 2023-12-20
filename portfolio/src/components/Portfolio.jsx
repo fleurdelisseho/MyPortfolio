@@ -23,12 +23,18 @@ export default function Portfolio() {
           <div class="grid grid-cols-3 gap-10 p-10">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
-                <div className=' flex overflow-hidden rounded-lg'>
-                  
+            
+                <div className='container flex overflow-hidden rounded-lg '>  
                 <a href={skill.link} target="_blank">
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
-                    
-                    <img src={skill.icon}  className='object-cover hover:scale-110 transition duration-300 ease-in-out '/>
+                    <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
+
+                    <div className='middle'>
+                    {/* <p className="mb-7">{skill.title}</p> */}
+                      <btn className='text'>
+                        View Project
+                      </btn>
+	                  </div>
                   </div>
                 </a>
                 </div>

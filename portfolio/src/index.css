@@ -43,31 +43,42 @@
   scroll-behavior: smooth;
 }
 
-.portfolio {
-.portfolio-overlay {
-  text-align: center;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-@include transition(all 0.3s ease-in-out);
+
+.container {
+  position: relative;
+  background-color: black;
 }
-&:hover .portfolio-overlay {
+
+.image {
+  opacity: 1;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.middle {
+ 
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
   opacity: 1;
 }
 
-.portfolio-overlay-details {
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.portfolio-details {
-padding: 1.5rem 0;
-text-align: center;
-}
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 100px;
 }
