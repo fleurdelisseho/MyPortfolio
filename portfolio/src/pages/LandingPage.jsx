@@ -9,11 +9,12 @@ const LandingPage = () => {
       
       <div className='ml-[313px]'>
         <Home />
-        <About/>
+        <About />
         <Services/>
         <Resume/>
         <Portfolio/>
         <Contact/> 
+        
         <Footer/>
       </div>
     </div>
