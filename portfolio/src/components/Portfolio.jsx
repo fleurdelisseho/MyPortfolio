@@ -1,6 +1,8 @@
 import React from 'react'
 import {portfolio, ui } from '../constants'
 import '../index.css'
+import { Link } from "react-router-dom"
+
 
 export default function Portfolio() {
     return (
@@ -28,16 +30,16 @@ export default function Portfolio() {
             {ui.map((proj, index) => (
               <li key={proj.id} >
                 <div className='container flex overflow-hidden rounded-lg '>  
-                <a href={proj.link} target="blank">
+                <Link to={`/${proj.id}`}>
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
                     <img src={proj.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        View Design
+                        {proj.id}
                       </button>
 	                  </div>
                   </div> 
-                  </a>       
+                  </Link>       
                 </div>
               </li>
             ))}
@@ -59,7 +61,7 @@ export default function Portfolio() {
                     <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        Go to Website
+                        {skill.id}
                       </button>
 	                  </div>
                   </div>

@@ -182,25 +182,25 @@ export const experience = [
 
 export const portfolio = [
   {
-    id:"tacpic",
+    id:"Tacpic",
     title: "TacPic Editor Landing Page",
     icon: p6,
     link: "https://www.tac-tales.com/",
   },
   {
-    id:"eatgangster",
+    id:"Eat Gangster",
     title: "Baking Mixes Landing Page",
     icon: p3,
     link: "https://eatgangster.com/",
   },
   {
-    id:"weedbebetteroff",
+    id:"WBBO",
     title: "Cannabis Apparel Brand Landing Page",
     icon: p2,
     link: "https://weedbebetteroff.com/",
   },
   {
-    id:"klbsolutions",
+    id:"Klb Solutions",
     title: "Digital Marketing Agency Landing Page",
     icon: p1,
     link: "https://klbsolutionsllc.com/",
@@ -209,25 +209,25 @@ export const portfolio = [
 
 export const ui = [
   {
-    id:"ark",
+    id:"Ark",
     title: "Ark Digital Website Redesign 2023",
     icon: p8,
     link: "https://www.figma.com/proto/iI2I7F3pS6UuQ043e7kERf/Ark?type=design&node-id=30-3&t=EhYxcACT78jbE7Oq-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A3&mode=design"
   },
   {
-    id:"orocan",
+    id:"Orocan",
     title: "Orocan Website Redesign",
     icon: p7,
     link:"https://www.figma.com/proto/FWuWSlmo1Chk46Yrx42Va9/Orocan?type=design&node-id=15-4&t=zZJdiAlpVFoXvY2r-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A4&mode=design",
    },
   {
-    id:"inquirenear",
+    id:"InquireNear",
     title: "InquireNear a Hiring Software Application for Realtime Information Mobile and Web App",
     icon: p5,
     link: "https://www.figma.com/proto/UXQ7J3qXWCujH7R1Ttpcg0/Inquirenear?type=design&node-id=1-2&t=nqo8xrkf7QsOVrKJ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
   },
   {
-    id:"busify",
+    id:"Busify",
     title: "Busify a Bus Monitoring System Mobile App",
     icon: p4,
     link: "https://www.figma.com/proto/uLm8JJeW9KUgKo7U31JQLs/Busify?type=design&node-id=2-150&t=QFpw7KXLFP6VfxhP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A150&mode=design",

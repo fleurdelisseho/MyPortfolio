@@ -31,6 +31,10 @@ import linkedinD from "./linkedinD.png"
 import github from "./github.png"
 import githubA from "./github_a.png"
 import githubD from "./githubD.png"
+import portfolioOrocan from "./portfolioOrocan.svg"
+import portfolioInquirenear from "./portfolioInquirenear.png"
+import portfolioBusify from "./busify.png"
+import portfolioArk from "./portfolioArk.png"
 export {
     pp,
     hero,
@@ -65,4 +69,8 @@ export {
     github,
     githubA,
     githubD,
+    portfolioOrocan,
+    portfolioInquirenear,
+    portfolioBusify,
+    portfolioArk
 }

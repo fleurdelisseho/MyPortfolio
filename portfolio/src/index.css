@@ -46,7 +46,7 @@
 
 .container {
   position: relative;
-  background-color: black;
+  background-color: #111418;
 }
 
 .image {
@@ -79,7 +79,7 @@
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 16px 42px;
   border-radius: 100px;
 }
 
