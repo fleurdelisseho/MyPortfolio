@@ -161,7 +161,7 @@ export const experience = [
     id: "freelance",
     year: "Jun - Dec 2023",
     company: "",
-    title: "Freelance UI/UX Designer and Video Editor",
+    title: "Freelance UI/UX Designer",
     description: "Experienced in UI/UX design using Figma and video editing with Premiere Pro, I excel in bringing client visions to life with impactful designs and compelling multimedia content for freelance projects."
   },
   {
@@ -208,18 +208,18 @@ export const portfolio = [
 ]
 
 export const ui = [
-  {
-    id:"Ark",
-    title: "Ark Digital Website Redesign 2023",
-    icon: p8,
-    link: "https://www.figma.com/proto/iI2I7F3pS6UuQ043e7kERf/Ark?type=design&node-id=30-3&t=EhYxcACT78jbE7Oq-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A3&mode=design"
-  },
-  {
-    id:"Orocan",
-    title: "Orocan Website Redesign",
-    icon: p7,
-    link:"https://www.figma.com/proto/FWuWSlmo1Chk46Yrx42Va9/Orocan?type=design&node-id=15-4&t=zZJdiAlpVFoXvY2r-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A4&mode=design",
-   },
+  // {
+  //   id:"Ark",
+  //   title: "Ark Digital Website Redesign 2023",
+  //   icon: p8,
+  //   link: "https://www.figma.com/proto/iI2I7F3pS6UuQ043e7kERf/Ark?type=design&node-id=30-3&t=EhYxcACT78jbE7Oq-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A3&mode=design"
+  // },
+  // {
+  //   id:"Orocan",
+  //   title: "Orocan Website Redesign",
+  //   icon: p7,
+  //   link:"https://www.figma.com/proto/FWuWSlmo1Chk46Yrx42Va9/Orocan?type=design&node-id=15-4&t=zZJdiAlpVFoXvY2r-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A4&mode=design",
+  //  },
   {
     id:"InquireNear",
     title: "InquireNear a Hiring Software Application for Realtime Information Mobile and Web App",
