@@ -1,7 +1,8 @@
 import React from 'react'
 import { portfolioOrocan, pp } from '../assets'
-import { ui, portfolio } from '../constants'
+import { ui, portfolio, socialLinks } from '../constants'
 import { Link } from "react-router-dom"
+import { Contact, Footer } from '../components'
 
 export default function Orocan() {
   return (
@@ -34,6 +35,30 @@ export default function Orocan() {
             ))}
           </div>
         </ul>
+        <div className='flex items-center justify-center bottom-[50px] absolute inset-x-0 bottom-0 '>
+        {socialLinks.map((socialLink) => (
+              <div key={socialLink.title}>
+                <ul className='list-none inline-flex'>
+                  {socialLink.links.map((link, index) => (
+                    <li key={link.id}>
+                        <div class="group">
+                        <div className="group-hover:hidden">
+                            <a href={link.link} target="_blank">
+                                <img src={link.icon} className="px-2 w-8 " />
+                            </a>
+                        </div>
+                        <div className="hidden group-hover:flex">
+                            <a href={link.link} target="_blank">
+                                <img src={link.active} className="px-2 w-8 " />
+                            </a>
+                        </div>
+                        </div>
+                    </li>
+                  ))}
+                </ul>
+            </div>
+          ))}
+        </div>
       </div>
         
     </div>
@@ -95,6 +120,12 @@ export default function Orocan() {
           </div>
         </ul>
       </div>
+
+      <div className='ml-[313px]'>
+        <Contact/> 
+        <Footer/>
+      </div>
+
     </div>
   )
 }
