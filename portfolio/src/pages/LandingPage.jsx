@@ -1,4 +1,4 @@
-import { Navbar, Home, About, Services, Resume, Portfolio, Contact, Footer } from '../components'
+import { Navbar, Home, About, Services, Resume, Portfolio, Contact, Footer, ScrollToTopButton  } from '../components'
 
 const LandingPage = () => {
   return (
@@ -16,6 +16,7 @@ const LandingPage = () => {
         <Contact/> 
         
         <Footer/>
+        <ScrollToTopButton />
       </div>
     </div>
   )

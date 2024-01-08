@@ -2,11 +2,12 @@ import React from 'react'
 import { portfolioArk, pp } from '../assets'
 import { ui, portfolio, socialLinks} from '../constants'
 import { Link } from "react-router-dom"
-import { Contact, Footer } from '../components'
+import { Contact, Footer, ScrollToTopButton } from '../components'
 
 export default function Ark() {
   return (
     <div className='w-full overflow-hidden'>
+      <ScrollToTopButton />
       <div className='fixed'>
       <div className='bg-[#111418] w-[313px] h-screen p-10 font-poppins text-white text-center'>
     <div>
