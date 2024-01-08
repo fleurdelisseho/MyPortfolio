@@ -17,15 +17,15 @@ export default function Busify() {
         <ul>
           <div >
             {ui.map((proj, index) => (
-              proj.id !== "Busify" && (
+              proj.id !== 4 && (
               <li key={proj.id}>
                 <div className='container overflow-hidden rounded-lg '>  
-                <Link to={`/${proj.id}`}>
+                <Link to={`/${proj.title}`}>
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg pt-[10%]'>
                     <img src={proj.icon} alt={`${proj.title} icon`} className='image rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        {proj.id}
+                        {proj.title}
                       </button>
 	                  </div>
                   </div> 
@@ -43,7 +43,7 @@ export default function Busify() {
                 <ul className='list-none inline-flex'>
                   {socialLink.links.map((link, index) => (
                     <li key={link.id}>
-                        <div class="group">
+                        <div className="group">
                         <div className="group-hover:hidden">
                             <a href={link.link} target="_blank">
                                 <img src={link.icon} className="px-2 w-8 " />
@@ -102,7 +102,7 @@ export default function Busify() {
        Explore more of my Web Design and Development Projects
       </h2>
         <ul>
-          <div class="grid grid-cols-4 gap-5 p-5">
+          <div className="grid grid-cols-4 gap-5 p-5">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
                 <div className='container flex overflow-hidden rounded-lg '>  
@@ -111,7 +111,7 @@ export default function Busify() {
                     <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        {skill.id}
+                        {skill.title}
                       </button>
 	                  </div>
                   </div>

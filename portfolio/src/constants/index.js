@@ -137,7 +137,9 @@ export const navLinks = [
     school: "Cebu Institute of Techology University",
     degree: "Bachelor's Degree",
     program: "Degree Program: ",
-    major: "Bachelor of Science in Computer Science "
+    major: "Bachelor of Science in Computer Science ",
+    honors: ""
+
   },
   {
     id: "shs",
@@ -182,26 +184,26 @@ export const experience = [
 
 export const portfolio = [
   {
-    id:"Tacpic",
-    title: "TacPic Editor Landing Page",
+    id: 1,
+    title: "TacPic",
     icon: p6,
     link: "https://www.tac-tales.com/",
   },
   {
-    id:"Eat Gangster",
-    title: "Baking Mixes Landing Page",
+    id: 2,
+    title: "Eat Gangster",
     icon: p3,
     link: "https://eatgangster.com/",
   },
   {
-    id:"WBBO",
-    title: "Cannabis Apparel Brand Landing Page",
+    id: 3,
+    title: "WBBO",
     icon: p2,
     link: "https://weedbebetteroff.com/",
   },
   {
-    id:"Klb Solutions",
-    title: "Digital Marketing Agency Landing Page",
+    id: 4,
+    title: "KLB Solutions",
     icon: p1,
     link: "https://klbsolutionsllc.com/",
   },
@@ -209,26 +211,26 @@ export const portfolio = [
 
 export const ui = [
   {
-    id:"Ark",
-    title: "Ark Digital Website Redesign 2023",
+    id: 1,
+    title: "Ark",
     icon: p8,
     link: "https://www.figma.com/proto/iI2I7F3pS6UuQ043e7kERf/Ark?type=design&node-id=30-3&t=EhYxcACT78jbE7Oq-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=30%3A3&mode=design"
   },
   {
-    id:"Orocan",
-    title: "Orocan Website Redesign",
+    id: 2,
+    title: "Orocan",
     icon: p7,
     link:"https://www.figma.com/proto/FWuWSlmo1Chk46Yrx42Va9/Orocan?type=design&node-id=15-4&t=zZJdiAlpVFoXvY2r-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A4&mode=design",
    },
   {
-    id:"InquireNear",
-    title: "InquireNear a Hiring Software Application for Realtime Information Mobile and Web App",
+    id: 3,
+    title: "InquireNear",
     icon: p5,
     link: "https://www.figma.com/proto/UXQ7J3qXWCujH7R1Ttpcg0/Inquirenear?type=design&node-id=1-2&t=nqo8xrkf7QsOVrKJ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
   },
   {
-    id:"Busify",
-    title: "Busify a Bus Monitoring System Mobile App",
+    id: 4,
+    title: "Busify",
     icon: p4,
     link: "https://www.figma.com/proto/uLm8JJeW9KUgKo7U31JQLs/Busify?type=design&node-id=2-150&t=QFpw7KXLFP6VfxhP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A150&mode=design",
   },

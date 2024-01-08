@@ -31,7 +31,7 @@ export default function Navbar() {
                 <ul className='list-none inline-flex'>
                   {socialLink.links.map((link, index) => (
                     <li key={link.id}>
-                        <div class="group">
+                        <div className="group">
                         <div className="group-hover:hidden">
                             <a href={link.link} target="_blank">
                                 <img src={link.icon} className="px-2 w-8 " />

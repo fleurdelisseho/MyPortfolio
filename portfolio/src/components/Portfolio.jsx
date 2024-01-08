@@ -26,16 +26,16 @@ export default function Portfolio() {
         UI/UX Design Projects
       </h2>
         <ul>
-          <div class="grid grid-cols-2 gap-10 p-10">
+          <div className="grid grid-cols-2 gap-10 p-10">
             {ui.map((proj, index) => (
               <li key={proj.id} >
                 <div className='container flex overflow-hidden rounded-lg '>  
-                <Link to={`/${proj.id}`}>
+                <Link to={`/${proj.title}`}>
                   <div className='shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] rounded-lg'>
                     <img src={proj.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        {proj.id}
+                        {proj.title}
                       </button>
 	                  </div>
                   </div> 
@@ -52,7 +52,7 @@ export default function Portfolio() {
         Web Design and Development Projects
       </h2>
         <ul>
-          <div class="grid grid-cols-2 gap-10 p-10">
+          <div className="grid grid-cols-2 gap-10 p-10">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
                 <div className='container flex overflow-hidden rounded-lg '>  
@@ -61,7 +61,7 @@ export default function Portfolio() {
                     <img src={skill.icon}  className='image object-cover hover:scale-110 transition duration-300 ease-in-out block '/>
                     <div className='middle'>
                       <button className='text'>
-                        {skill.id}
+                        {skill.title}
                       </button>
 	                  </div>
                   </div>

@@ -81,7 +81,7 @@ export default function Resume() {
       </h2>
       <div>
           <ul className="list-none flex inline">
-            <div class="grid grid-cols-2 w-full">
+            <div className="grid grid-cols-2 w-full">
             {skillset.map((skill, index) => (
                 <li key={skill.id} 
                   className={`font-poppins font-normal text-[#212529] `}

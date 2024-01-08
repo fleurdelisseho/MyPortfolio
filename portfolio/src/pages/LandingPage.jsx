@@ -1,4 +1,5 @@
 import { Navbar, Home, About, Services, Resume, Portfolio, Contact, Footer, ScrollToTopButton  } from '../components'
+import React from 'react'
 
 const LandingPage = () => {
   return (
