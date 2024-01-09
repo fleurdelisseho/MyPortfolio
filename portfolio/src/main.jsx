@@ -4,7 +4,6 @@ import './index.css'
 import { Ark, Inquirenear, LandingPage, Orocan, Busify } from './pages';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { inject } from '@vercel/analytics';
-import { ScrollToTop } from './components'
 
 inject();
 const router = createBrowserRouter([
@@ -34,7 +33,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}>
-      <ScrollToTop />
     </RouterProvider>
   </React.StrictMode>,
 );

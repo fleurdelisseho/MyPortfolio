@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { portfolioArk, pp } from '../assets'
 import { ui, portfolio, socialLinks} from '../constants'
 import { Link } from "react-router-dom"
 import { Contact, Footer, ScrollToTopButton } from '../components'
 
 export default function Ark() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className='w-full overflow-hidden'>
       <ScrollToTopButton />
