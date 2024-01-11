@@ -17,7 +17,7 @@ export default function Services() {
         </div>
         <div className='p-10'>
           <ul className="list-none flex inline">
-            <div className="grid grid-cols-2">
+            <div className="grid md:grid-cols-2">
               {services.map((service, index) => (
                 <li key={service.id} 
                   className={`font-poppins font-normal text-[#465A69] `}

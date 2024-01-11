@@ -18,8 +18,8 @@ export default function Resume() {
           <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
           </div>
       </div>
-      <div className='flex w-full px-10 pt-10 justify-center'>
-      <div className='w-[45%]'>
+      <div className='px-10 pt-10 grid md:grid-cols-2 w-full'>
+      <div className=''>
       <h2 className='font-poppins font-semibold text-[22px] text-[#212529]'>
         My Education
       </h2>
@@ -49,7 +49,7 @@ export default function Resume() {
         </ul>
       </div>
 
-      <div className='w-[45%]'>
+      <div className=''>
       <h2 className='font-poppins font-semibold text-[22px] text-[#212529]'>
         My Experience
       </h2>
@@ -75,13 +75,13 @@ export default function Resume() {
         </ul>
       </div>    
       </div>
-      <div className='w-full px-20'>
+      <div className='w-full lg:px-5 sm:px-6'>
       <h2 className='ml-5 font-poppins font-semibold text-[22px] text-[#212529]'>
         My Skills
       </h2>
       <div>
           <ul className="list-none flex inline">
-            <div className="grid grid-cols-2 w-full">
+            <div className="grid md:grid-cols-2 w-full">
             {skillset.map((skill, index) => (
                 <li key={skill.id} 
                   className={`font-poppins font-normal text-[#212529] `}

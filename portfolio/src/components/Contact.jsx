@@ -33,8 +33,8 @@ export default function Contact() {
         <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
         </div>
     </div>
-    <div className='flex w-full p-10 justify-evenly'>
-    <div className='w-[25%] mr-5'>
+    <div className='lg:flex w-full p-10 lg:justify-evenly'>
+    <div className='lg:w-[25%] mr-5'>
     
     {footerLinks.map((footerlink) => (
               <div key={footerlink.title}
@@ -58,7 +58,7 @@ export default function Contact() {
             </div>
           ))}
 
-<div className='flex items-start justify-start '>
+<div className='hidden lg:block flex items-start justify-start '>
         {socialLinks.map((socialLink) => (
               <div key={socialLink.title}>
                 <h4 className='font-poppins font-semibold py-5 text-[20px] leading-[27px]'>
@@ -88,7 +88,7 @@ export default function Contact() {
         </div>
     </div>
 
-    <div className='w-[60%]'>
+    <div className='lg:w-[60%] sm:mt-10 lg:m-0'>
       <h4 className='font-poppins font-semibold text-[20px] my-4 leading-[27px]'>
           SEND ME A NOTE
       </h4>

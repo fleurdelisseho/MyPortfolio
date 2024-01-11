@@ -26,7 +26,7 @@ export default function Portfolio() {
         UI/UX Design Projects
       </h2>
         <ul>
-          <div className="grid grid-cols-2 gap-10 p-10">
+          <div className="grid md:grid-cols-2 gap-10 p-10">
             {ui.map((proj, index) => (
               <li key={proj.id} >
                 <div className='container flex overflow-hidden rounded-lg '>  
@@ -52,7 +52,7 @@ export default function Portfolio() {
         Web Design and Development Projects
       </h2>
         <ul>
-          <div className="grid grid-cols-2 gap-10 p-10">
+          <div className="grid md:grid-cols-2 gap-10 p-10">
             {portfolio.map((skill, index) => (
               <li key={skill.id} >
                 <div className='container flex overflow-hidden rounded-lg '>  

@@ -7,6 +7,7 @@ import Contact from "./Contact"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import ScrollToTopButton from "./ScrollToTopButton"
+import TopNav from "./TopNav"
 
 export {
     Home,
@@ -18,4 +19,5 @@ export {
     Navbar, 
     Footer,
     ScrollToTopButton,
+    TopNav
 }

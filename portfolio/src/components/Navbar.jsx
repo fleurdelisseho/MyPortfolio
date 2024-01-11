@@ -7,8 +7,9 @@ export default function Navbar() {
     const [active, setActive] = useState("Home");
 
   return (
-    <div className='bg-[#111418] w-[313px] h-screen p-10 font-poppins text-white  text-center'>
-        <div className="">
+    <div>
+    <div className='bg-[#111418] h-screen p-10 font-poppins text-white text-center'>
+        <div>
             <img src={pp} alt='Fleurdelisse Rabanes' className='w-[200px] m-auto border-[10px] border-[#343a40] rounded-full' />
             <h1 className="text-[21px] py-5">
                 Fleurdelisse Rabanes
@@ -49,6 +50,7 @@ export default function Navbar() {
             </div>
           ))}
         </div>
+    </div>
     </div>
   )
 }

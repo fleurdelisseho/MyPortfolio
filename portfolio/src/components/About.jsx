@@ -17,8 +17,8 @@ export default function About() {
             </div>
         </div>
       
-        <div className='p-10 flex mt-10'>
-        <div className='w-[60%]'>
+        <div className='p-10 xl:flex mt-10'>
+        <div className='md:mb-10'>
         <h1 className='font-poppins text-[26px] font-semibold'>
         I'm 
         <span className='text-[#20c997]'> Fleurdelisse Rabanes,</span> a Frontend Developer
@@ -34,7 +34,7 @@ export default function About() {
         I am excited about the endless possibilities in the world of software development, and I am open to new opportunities that will help me grow both personally and professionally. If you're looking for a dedicated and enthusiastic front-end developer to join your team or collaborate on a project, I would be delighted to connect with you.
         </p>
         </div>
-        <div className='text-[#4c4d4d] font-poppins px-10'>
+        <div className=' text-[#4c4d4d] font-poppins xl:p-10 sm:pt-10 xl:pt-0'>
           <span className='font-semibold'>Name: </span> Fleurdelisse Rabanes
           <hr className='my-3'/>
           <span className='font-semibold'>Email: </span>  <span className='text-[#20c997]'> fleurdelisserabanes@gmail.com </span>

@@ -12,7 +12,7 @@ export default function Busify() {
   return (
     <div className='w-full overflow-hidden'>
       <ScrollToTopButton />
-      <div className='fixed'>
+      <div className='fixed hidden lg:block'>
       <div className='bg-[#111418] w-[313px] h-screen p-10 font-poppins text-white text-center'>
     <div>
       <h2 className='text-[21px]'>
@@ -70,7 +70,7 @@ export default function Busify() {
     </div>
       </div>
       
-      <div className='ml-[313px] bg-[#f9f9f9] py-10'>
+      <div className='lg:ml-[313px] bg-[#f9f9f9] py-10'>
         
         <div className='flex flex-wrap content-center flex-col justify-center'>
           <div className='mb-10 flex content-center'>
@@ -101,7 +101,7 @@ export default function Busify() {
         </div>
       </div>
 
-      <div className='ml-[313px] bg-[#f9f9f9] p-10 pt-0 '>
+      <div className='lg:ml-[313px] bg-[#f9f9f9] p-10 pt-0 '>
       <h2 className='pl-5 pb-5 font-poppins font-semibold text-[22px] text-[#212529]'>
        Explore more of my Web Design and Development Projects
       </h2>
@@ -127,7 +127,7 @@ export default function Busify() {
         </ul>
       </div>
 
-      <div className='ml-[313px]'>
+      <div className='lg:ml-[313px]'>
         <Contact/> 
         <Footer/>
       </div>
