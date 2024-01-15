@@ -7,12 +7,12 @@ export default function Resume() {
   return (
     <div id="resume" className='h-auto flex justify-center pt-10'>
       <div>
-        <div className='position-relative d-flex text-center mb-5'>
-          <h2 className='font-poppins text-[#f2f4f4] font-semibold text-[120px] '>
+        <div className='position-relative d-flex text-center sm:mb-0 md:mb-5'>
+        <h2 className='font-poppins text-[#f2f4f4] font-semibold xs:text-[50px] md:text-[90px] lg:text-[120px] '>
             SUMMARY
           </h2>
-          <div className='mt-[-115px]'>
-          <p className='text-[#212529] fw-600 font-semibold text-[32px] font-poppins lh-base mb-0'>
+          <div className='lg:mt-[-115px] md:mt-[-90px] xs:mt-[-50px]'>
+          <p className='text-[#212529] fw-600 font-semibold xs:text-[15px] md:text-[24px] lg:text-[32px] font-poppins lh-base mb-0'>
             Resume
           </p> 
           <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
@@ -20,27 +20,27 @@ export default function Resume() {
       </div>
       <div className='px-10 pt-10 grid md:grid-cols-2 w-full'>
       <div className=''>
-      <h2 className='font-poppins font-semibold text-[22px] text-[#212529]'>
+      <h2 className='font-poppins font-semibold xs:text-[18px] md:text-[22px] text-[#212529]'>
         My Education
       </h2>
       
       <ul className="list-none">
         {education.map((edu, index) => (
           <li key={edu.id}>
-            <div className='border border-[#dee2e6] rounded-lg p-5 my-8 mr-8'>
+            <div className='border border-[#dee2e6] rounded-lg p-5 xs:my-5 xs:mr-0 md:my-8 md:mr-8'>
             <div className='bg-[#20c997] text-[12px] text-white font-poppins py-1 px-2 rounded-lg w-[85px] text-center'>
             {edu.year}
             </div>
-            <div className='font-poppins text-[20px] py-3'>
+            <div className='font-poppins xs:text-[16px]md:text-[20px] py-3'>
             {edu.degree}
             </div>
-            <div className='text-[#dc3545] font-poppins  text-[15px]'>
+            <div className='text-[#dc3545] font-poppins  xs:text-[12px] md:text-[15px]'>
             {edu.school}
             </div>
-            <p className='font-poppins text-[15px] py-2'>
+            <p className='font-poppins xs:text-[12px] md:text-[15px] py-2'>
              <i>{edu.program}</i> {edu.major}
             </p>
-            <p className='font-poppins text-[15px] py-2'>
+            <p className='font-poppins xs:text-[12px] md:text-[15px] py-2'>
              {edu.honors}
             </p>
             </div>
@@ -50,23 +50,23 @@ export default function Resume() {
       </div>
 
       <div className=''>
-      <h2 className='font-poppins font-semibold text-[22px] text-[#212529]'>
+      <h2 className='font-poppins font-semibold xs:text-[18px] md:text-[22px] text-[#212529]'>
         My Experience
       </h2>
       <ul className="list-none">
         {experience.map((exp, index) => (
-            <div className='border border-[#dee2e6] rounded-lg p-5 my-8'>
+            <div className='border border-[#dee2e6] rounded-lg p-5 xs:mt-5 xs:mb-8 md:my-8'>
           <li key={exp.id}>
             <div className='bg-[#20c997] text-[12px] text-white font-poppins py-1 px-2 rounded-lg w-[120px] text-center'>
               {exp.year}
             </div>
-            <div className='font-poppins text-[20px] py-3'>
+            <div className='font-poppins xs:text-[16px]md:text-[20px] py-3'>
             {exp.title}
             </div>
-            <div className='text-[#dc3545] font-poppins  text-[15px]'>
+            <div className='text-[#dc3545] font-poppins  xs:text-[12px] md:text-[15px]'>
             {exp.company}
             </div>
-            <div className='font-poppins  text-[15px] py-2'>
+            <div className='font-poppins xs:text-[12px] md:text-[15px] py-2'>
             {exp.description}
             </div>
           </li>
@@ -75,8 +75,8 @@ export default function Resume() {
         </ul>
       </div>    
       </div>
-      <div className='w-full lg:px-5 sm:px-6'>
-      <h2 className='ml-5 font-poppins font-semibold text-[22px] text-[#212529]'>
+      <div className='w-full px-5'>
+      <h2 className='ml-5 font-poppins font-semibold xs:text-[18px] md:text-[22px] text-[#212529] '>
         My Skills
       </h2>
       <div>
@@ -86,8 +86,8 @@ export default function Resume() {
                 <li key={skill.id} 
                   className={`font-poppins font-normal text-[#212529] `}
                 >
-                  <div className='p-5'>
-                  <div className="flex text-[18px] justify-between mb-2 ">
+                  <div className='xs:px-5 xs:mt-3 sm:p-5'>
+                  <div className="flex xs:text-[14px] md:text-[18px] justify-between mb-2 ">
                       <h3 className='font-medium'>
                         {skill.name}
                       </h3>
@@ -109,7 +109,7 @@ export default function Resume() {
         </div>
       </div>
       <a href={MyResume} download="Resume.pdf" target="_blank">
-          <button className='block text-[#6c757d] border-[#6c757d] font-poppins border py-3 px-12 rounded-full drop-shadow-xl m-auto my-16 hover:bg-[#6c757d] hover:text-white  '>
+          <button className='block text-[#6c757d] border-[#6c757d] font-poppins border py-3 px-12 rounded-full drop-shadow-xl m-auto my-16 hover:bg-[#6c757d] hover:text-white xs:text-[12px] sm:text-[16px]'>
             Download CV
           </button>
           </a>

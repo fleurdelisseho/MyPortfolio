@@ -73,22 +73,21 @@ export default function Inquirenear() {
       <div className='lg:ml-[313px] bg-[#f9f9f9] py-10'>
         
         <div className='flex flex-wrap content-center flex-col justify-center'>
-          <div className='mb-10 flex content-center'>
+        <div className='xs:mb-5 sm:mb-10 flex content-center'>
             <div className='pr-3'>
-            <img src={pp} alt='Fleurdelisse Rabanes' className='w-[60px] m-auto rounded-full' />
+            <img src={pp} alt='Fleurdelisse Rabanes' className='xs:w-[45px] md:w-[60px] m-auto rounded-full' />
             </div>
             <div className='w-[100%] flex justify-between '>
             <div>
-          <h2 className='font-poppins font-bold text-[22px] text-[#212529]'>
+            <h2 className='font-poppins font-bold xs:text-[16px] text-[22px] text-[#212529]'>
           InquireNear
           </h2>
-          <h2 className='font-poppins text-[18px] text-[#212529]'>
+          <h2 className='font-poppins xs:text-[12px] md:text-[18px] text-[#212529]'>
           Fleurdelisse Rabanes <span className='px-1'>2023</span>
           </h2>
           </div>
-
           <Link to={`/`}>
-          <button className='bg-none rounded-full border-[#20c997] text-[#20c997] border py-3 px-10 hover:bg-[#20c997] hover:text-white'>
+          <button className='bg-none rounded-full border-[#20c997] text-[#20c997] border sm:py-2 sm:px-5 md:py-3 md:px-10 hover:bg-[#20c997] hover:text-white hidden sm:block sm:text-[12px] md:text-[16px]'>
             Back to Home
           </button>
           </Link>
@@ -101,7 +100,7 @@ export default function Inquirenear() {
         </div>
       </div>
 
-      <div className='lg:ml-[313px] bg-[#f9f9f9] p-10 pt-0 '>
+      <div className='lg:ml-[313px] bg-[#f9f9f9] p-10 pt-0 md:block hidden'>
       <h2 className='pl-5 pb-5 font-poppins font-semibold text-[22px] text-[#212529]'>
        Explore more of my Web Design and Development Projects
       </h2>

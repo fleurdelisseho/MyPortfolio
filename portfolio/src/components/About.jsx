@@ -2,28 +2,28 @@ import React from 'react'
 import Resume from '../assets/RabanesResume.pdf'
 export default function About() {
   return (
-    <div id="about" className='h-auto flex justify-center p-10'>
+    <div id="about" className='h-auto flex justify-center md:p-10 xs:py-10'>
       <div >
-          <div className='position-relative d-flex text-center mb-5'>
+          <div className='position-relative d-flex text-center sm:mb-0 md:mb-5'>
             
-            <h2 className='font-poppins text-[#f2f4f4] font-semibold text-[120px] '>
+            <h2 className='font-poppins text-[#f2f4f4] font-semibold xs:text-[50px] md:text-[90px] lg:text-[120px] '>
               ABOUT ME
             </h2>
-            <div className='mt-[-115px]'>
-            <p className='text-[#212529] fw-600 font-semibold text-[32px] font-poppins lh-base mb-0'>
+            <div className='lg:mt-[-115px] md:mt-[-90px] xs:mt-[-50px]'>
+            <p className='text-[#212529] fw-600 font-semibold xs:text-[15px] md:text-[24px] lg:text-[32px] font-poppins lh-base mb-0'>
               Know Me More
             </p> 
             <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
             </div>
         </div>
       
-        <div className='p-10 xl:flex mt-10'>
+        <div className='p-10 xl:flex md:mt-10'>
         <div className='md:mb-10'>
-        <h1 className='font-poppins text-[26px] font-semibold'>
+        <h1 className='font-poppins lg:text-[26px] md:text-[20px] font-semibold'>
         I'm 
         <span className='text-[#20c997]'> Fleurdelisse Rabanes,</span> a Frontend Developer
         </h1>
-        <p className='text-[#4c4d4d] font-poppins'>
+        <p className='text-[#4c4d4d] font-poppins xs:text-[12px] md:text-[16px]'>
         <br/>
         During my academic journey, I developed a strong foundation in computer science principles, algorithms, and programming languages. I also had the opportunity to explore various areas of software development, but my true passion lies in frontend development.
         <br/><br/>
@@ -34,7 +34,7 @@ export default function About() {
         I am excited about the endless possibilities in the world of software development, and I am open to new opportunities that will help me grow both personally and professionally. If you're looking for a dedicated and enthusiastic front-end developer to join your team or collaborate on a project, I would be delighted to connect with you.
         </p>
         </div>
-        <div className=' text-[#4c4d4d] font-poppins xl:p-10 sm:pt-10 xl:pt-0'>
+        <div className='xs:text-[12px] text-[#4c4d4d] font-poppins xl:p-10 xs:pt-10 xl:pt-0'>
           <span className='font-semibold'>Name: </span> Fleurdelisse Rabanes
           <hr className='my-3'/>
           <span className='font-semibold'>Email: </span>  <span className='text-[#20c997]'> fleurdelisserabanes@gmail.com </span>

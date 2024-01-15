@@ -51,7 +51,7 @@ export default function TypeWriter({ appendClass, hats, prefix }) {
 
     return (
         <div className={className}>
-            <div className="flex gap-2 xl:text-[60px] lg:text-[55px] sm:text-[45px] mx-auto">
+            <div className="flex gap-2 xl:text-[60px] lg:text-[55px] sm:text-[45px] text-[25px] mx-auto">
                 <div className="shrink-0 whitespace-nowrap ml-auto">
                     {prefix}
                     {hats[currentHat].prep ? ` ${hats[currentHat].prep} ` : ''}

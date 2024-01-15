@@ -21,10 +21,9 @@ const hats = [
 export default function Home() {
     return (
       <div id="home" className='overflow:hidden'>
-        {/* <div className='mx-0 h-screen overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat shadow-lg' style={{ backgroundImage: `url(${hero})`}}> */}
-        <div className='h-screen pb-[-20px] bg-[#1e1e1e] flex justify-center items-center'>
+        <div className='h-screen sm:pb-[-20px] bg-[#1e1e1e] flex justify-center items-center'>
           <div className=' text-center flex-col justify-center'>
-          <p className='text-white font-poppins text-[32px] mb-5'>
+          <p className='text-white font-poppins sm:text-[25px] md:text-[32px] mb-5 text-[20px]'>
             Welcome 
           </p>
           
@@ -33,7 +32,7 @@ export default function Home() {
           hats={hats}
         />
           
-         <p className='text-white font-poppins text-[26px] mt-5'>
+         <p className='text-white font-poppins md:text-[26px] sm:text-[25px] mt-5 text-[20px]'>
             based in Cebu, Philippines.
           </p>
           <a href="#contact">

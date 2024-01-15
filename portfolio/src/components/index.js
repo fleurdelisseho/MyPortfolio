@@ -8,7 +8,7 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import ScrollToTopButton from "./ScrollToTopButton"
 import TopNav from "./TopNav"
-
+import Menu from "./Menu"
 export {
     Home,
     About,
@@ -19,5 +19,6 @@ export {
     Navbar, 
     Footer,
     ScrollToTopButton,
-    TopNav
+    TopNav,
+    Menu
 }
