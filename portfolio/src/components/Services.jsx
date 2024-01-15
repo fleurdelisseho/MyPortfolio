@@ -12,10 +12,10 @@ export default function Services() {
             <p className='text-[#212529] fw-600 font-semibold xs:text-[15px] md:text-[24px] lg:text-[32px] font-poppins lh-base mb-0'>
                 What I Do?
               </p> 
-              <hr className='w-[100px] h-[3px] bg-[#20c997] m-auto relative'/>
+              <hr className='xs:w-[50px] md:w-[100px] xs:h-[2px] md:h-[3px] bg-[#20c997] m-auto relative'/>
             </div>
         </div>
-        <div className='md:p-10 xs:mt-10'>
+        <div className='lg:p-10 xs:mt-10'>
           <ul className="list-none flex inline">
             <div className="grid md:grid-cols-2">
               {services.map((service, index) => (
